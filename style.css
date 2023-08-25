@@ -51,6 +51,130 @@ table {
 
 
 
-h1{
-    color: blue;
+
+
+*,*::before,*::after{
+	box-sizing: border-box;
 }
+
+body{
+	font-family: 'Bruno Ace SC', cursive;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.container{
+	width: 1296px;
+	margin: 0 auto;
+}
+
+img{
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+
+.header{
+	padding-top: 40px;
+}
+
+.bg-dark{
+	background: black;
+}
+
+.d-flex{
+	display: flex;
+}
+
+.flex-col{
+	flex-direction: column;
+}
+
+.ai-center{
+	align-items: center;
+}
+
+.jc-between{
+	justify-content: space-between;
+}
+
+.c-light{
+	color: #d1d1d1;
+}
+
+.c-white{
+	color: white;
+}
+
+.c-green{
+	color: #00FFA3;
+}
+
+.ta-end{
+	text-align: end;
+}
+
+.fz-s{
+	font-size: 16px;
+}
+
+.fz-l{
+	font-size: 64px;
+}
+
+.fz-xl{
+	font-size: 128px;
+}
+
+.title-link{
+	display: block;
+	width: 306px;
+}
+
+.title-link-s{
+	display: block;
+	width: 196px;
+	text-align: right;
+}
+
+.title-link:hover{
+	color: #00FFA3;
+}
+
+.mr-6{
+	margin-right: 24px;
+}
+
+.ml-1{
+	margin-left: 4px;
+}
+
+.banner{
+	padding: 72px 0;
+}
+
+.banner-text{
+	width: 636px;
+}
+
+
+.block1-contact{
+	margin-left: auto;
+}
+
+.block1-link{
+	background: #FFFFFF;
+  	padding: 12px 24px;
+  	border-radius: 32px;
+  	display: block;
+}
+
+.dark{
+	color: black;
+}
+
