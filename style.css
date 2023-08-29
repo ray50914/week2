@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -52,11 +52,6 @@ table {
 
 
 
-
-*,*::before,*::after{
-	box-sizing: border-box;
-}
-
 body{
 	font-family: 'Bruno Ace SC', cursive;
 	font-size: 16px;
@@ -70,38 +65,62 @@ body{
 
 img{
     vertical-align: middle;
+	
     max-width: 100%;
+}
+
+.mama{
+	width: 636px;
 }
 
 a{
 	text-decoration: none;
-}
+} 
 
 
 
-.header{
+ .header{
 	padding-top: 40px;
-}
+} 
 
 .bg-dark{
 	background: black;
 }
 
-.d-flex{
-	display: flex;
+
+
+.flex-w{
+	flex-wrap: wrap;
 }
 
 .flex-col{
 	flex-direction: column;
 }
 
-.ai-center{
-	align-items: center;
+.w-306{
+	width: 306px;
+}
+.w-526{
+	width: 526px;
+}
+.w-636{
+	width: 636px;
+}
+.w-746{
+	width: 746px;
 }
 
-.jc-between{
-	justify-content: space-between;
-}
+
+
+
+
+
+
+
+
+
+
+
 
 .c-light{
 	color: #d1d1d1;
@@ -120,7 +139,11 @@ a{
 }
 
 .fz-s{
-	font-size: 16px;
+	font-size: 20px;
+}
+
+.fz-m{
+	font-size: 24px;
 }
 
 .fz-l{
@@ -130,6 +153,44 @@ a{
 .fz-xl{
 	font-size: 128px;
 }
+
+.flex-col{
+	flex-direction: column;
+}
+
+.justify-sb{
+	justify-content: space-between;
+}
+
+.mb-24{
+	margin-bottom: 24px;
+}
+.mb-32{
+	margin-bottom: 32px;
+}
+.mb-36{
+	margin-bottom: 36px;
+}
+.ml-a{
+	margin-left: auto;
+}
+.ml-24{
+	margin-left: 24px;
+}
+.ml-134{
+	margin-left: 134px;
+}
+.mr-20{
+	margin-right: 20px;
+}
+.mr-6{
+	margin-right: 24px;
+}
+
+
+
+
+
 
 .title-link{
 	display: block;
@@ -142,12 +203,14 @@ a{
 	text-align: right;
 }
 
-.title-link:hover{
+.title-link:hover,.title-link-s:hover {
 	color: #00FFA3;
 }
 
-.mr-6{
-	margin-right: 24px;
+
+
+.mr-110{
+	margin-right: 110px;
 }
 
 .ml-1{
@@ -174,7 +237,140 @@ a{
   	display: block;
 }
 
+.block1-link:hover{
+	background:#00FFA3;
+}
+
 .dark{
 	color: black;
 }
 
+.self-end{
+	align-self: flex-end;
+}
+
+.introduction{
+	background-image: url(/img/background-img.png);
+	padding: 160px 0;
+}
+
+
+
+.d-flex{
+	display: flex;
+}
+
+.jc-center{
+	justify-content: center;
+}
+
+.basicPadding{
+	padding: 160px 0px;
+}
+
+.card{
+	width: 636px;
+}
+
+.ai-center{
+	align-items: center;
+}
+
+.card-box{
+	flex-wrap: wrap;
+}
+
+.jc-between{
+	justify-content: space-between;
+}
+
+.card-item{
+	width: 274px;
+	padding: 16px;
+	border: 1px solid #e3e3e3 ;
+	box-shadow: 4px 4px 4px 0px rgba(0, 0, 0,0.08);
+}
+
+.mb-6{
+	margin-bottom: 24px;
+}
+
+.medium{
+	font-size: 1.25rem;
+}
+
+.card-h3{
+	margin: 4px 0;
+}
+
+.block3-article{
+	width: 526px;
+	margin-left: 134px;
+}
+
+.block3-h2{
+	margin-bottom: 36px;
+}
+
+.block3-article:last-child{
+	font-size: 1.5rem;
+}
+
+.title{
+	font-size: 4rem;
+} 
+
+.contact{
+	padding: 96px 0;
+	background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+
+.contact .image{
+	object-fit: cover;
+	border-radius: 40px;
+	width: 162px;
+	height: 162px;
+}
+
+.contact .image:hover{
+	box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);
+	border-radius: 40px;
+}
+
+
+.block5-arrow {
+	text-indent: 150%;
+	overflow: hidden;
+	white-space: nowrap;
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+	background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/arrow_outward-white.png?raw=true");
+	margin-left: 4px;
+}
+
+.block5-link {
+	padding: 12px 24px;
+	border-radius: 32px;
+  }
+  .block5-link:hover {
+	background: #00FFA3;
+	color: black;
+  }
+  .block5-link:hover .block5-arrow {
+	background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/arrow_outward.png?raw=true");
+  }
+
+.mb-48{
+	margin-bottom: 48px;
+}
+
+.ta-center{
+	text-align: center;
+}
+
+
+.footer {
+	background: black;
+	padding: 40px 0;
+}
